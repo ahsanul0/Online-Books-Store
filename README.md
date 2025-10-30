@@ -60,17 +60,11 @@ Run the project on http://localhost:8080/OnlineBookStore.
 📂 ___Project Structure____
 OnlineBookStore/
 │
-
 ├── src/
-
-│   ├── com.bookstore.dao/               # Database access objects
-
-│   ├── com.bookstore.model/             # Java model classes
-
+│   ├── com.bookstore.dao/         # Database access objects
+│   ├── com.bookstore.model/       # Java model classes
 │   ├── com.bookstore.servlet/     # Servlets for handling requests
-
 │   └── com.bookstore.util/        # Database connection utilities
-
 │
 ├── WebContent/
 │   ├── css/                       # Stylesheets
