@@ -57,14 +57,20 @@ Set up Apache Tomcat in your IDE.
 
 Run the project on http://localhost:8080/OnlineBookStore.
 
-📂 Project Structure
+📂 ___Project Structure____
 OnlineBookStore/
 │
+
 ├── src/
-│   ├── com.bookstore.dao/         # Database access objects
-│   ├── com.bookstore.model/       # Java model classes
+
+│   ├── com.bookstore.dao/               # Database access objects
+
+│   ├── com.bookstore.model/             # Java model classes
+
 │   ├── com.bookstore.servlet/     # Servlets for handling requests
+
 │   └── com.bookstore.util/        # Database connection utilities
+
 │
 ├── WebContent/
 │   ├── css/                       # Stylesheets
