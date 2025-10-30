@@ -59,21 +59,32 @@ Run the project on http://localhost:8080/OnlineBookStore.
 
 📂 ___Project Structure____
 OnlineBookStore/
-OnlineBookStore/
+
 │
 ├── src/
+
 │   ├── com.bookstore.dao/         # Database access objects
+
 │   ├── com.bookstore.model/       # Java model classes
+
 │   ├── com.bookstore.servlet/     # Servlets for handling requests
+
 │   └── com.bookstore.util/        # Database connection utilities
 │
 ├── WebContent/
+
 │   ├── css/                       # Stylesheets
+
 │   ├── js/                        # JavaScript files
+
 │   ├── images/                    # Book cover images
+
 │   ├── index.jsp                  # Home page
+
 │   ├── login.jsp                  # Login page
+
 │   ├── register.jsp               # Registration page
+
 │   ├── cart.jsp                   # Shopping cart
 │   └── admin/                     # Admin panel pages
 │
@@ -81,6 +92,7 @@ OnlineBookStore/
 │   └── bookstore.sql              # SQL file for creating tables
 │
 ├── README.md                      # Project documentation
+
 └── pom.xml / build.xml            # Build configuration (if using Maven/Ant)
 
 🗄️ ___Database Tables______
@@ -92,14 +104,6 @@ books – Contains book details like title, author, price, category.
 orders – Records customer purchases.
 
 cart – Temporary cart storage for each user.
-
-📸 Screenshots (Optional)
-
-(Add screenshots of your application UI here — home page, book details, admin panel, etc.)
-You can upload them to a /screenshots folder and embed like this:
-
-![Home Page](screenshots/home.png)
-![Book Details](screenshots/book-details.png)
 
 💡 ____Future Enhancements___
 
