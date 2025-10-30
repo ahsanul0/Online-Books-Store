@@ -59,43 +59,28 @@ Run the project on http://localhost:8080/OnlineBookStore.
 
 📂 ___Project Structure____
 OnlineBookStore/
+OnlineBookStore/
 │
 ├── src/
-
-│   ├── com.bookstore.dao/                # Database access objects
-
-│   ├── com.bookstore.model/              # Java model classes
-
-│   ├── com.bookstore.servlet/            # Servlets for handling requests
-
-│   └── com.bookstore.util/               # Database connection utilities
-
+│   ├── com.bookstore.dao/         # Database access objects
+│   ├── com.bookstore.model/       # Java model classes
+│   ├── com.bookstore.servlet/     # Servlets for handling requests
+│   └── com.bookstore.util/        # Database connection utilities
 │
-
 ├── WebContent/
-
 │   ├── css/                       # Stylesheets
-
 │   ├── js/                        # JavaScript files
-
 │   ├── images/                    # Book cover images
-
 │   ├── index.jsp                  # Home page
-
 │   ├── login.jsp                  # Login page
-
 │   ├── register.jsp               # Registration page
-
 │   ├── cart.jsp                   # Shopping cart
-
 │   └── admin/                     # Admin panel pages
 │
 ├── database/
-
 │   └── bookstore.sql              # SQL file for creating tables
 │
 ├── README.md                      # Project documentation
-
 └── pom.xml / build.xml            # Build configuration (if using Maven/Ant)
 
 🗄️ ___Database Tables______
